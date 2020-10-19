@@ -18,16 +18,8 @@
 #puts "The sixth letter in the alphabet is #{letters[5]}"
 #puts "The seventh letter in the alphabet is #{letters[6]}"
 
-def display_rainbow(colors)
-  colors = ["R: red", "O: orange", "Y: yellow", "G: green", "B: blue", "I: indigo", "V: violet"]
-  puts "#{colors[0]}, #{colors[1]}, #{colors[2]}, #{colors[3]}, #{colors[4]}, #{colors[5]}, #{colors[6]}"
 
-  letters = ["R", "O", "Y", "G", "B", "I","V"]
-  puts "The first letter in display_rainbow is #{letters[0]}"
-  puts "The second letter in display_rainbow is #{letters[1]}"
-  puts "The third letter in display_rainbow is #{letters[2]}"
-  puts "The fourth letter in display_rainbow is #{letters[3]}"
-  puts "The fifth letter in display_rainbow is #{letters[4]}"
-  puts "The sixth letter in display_rainbow is #{letters[5]}"
-  puts "The seventh letter in display_rainbow #{letters[6]}"
+  def display_rainbow(colors)
+   puts "R: #{colors[0]}, O: #{colors[1]}, Y: #{colors[2]}, G: #{colors[3]}, B: #{colors[4]}, I: #{colors[5]}, V: #{colors[6]}"
+   
 end
